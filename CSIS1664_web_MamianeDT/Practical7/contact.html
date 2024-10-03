@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<!-- DT. Mamiane (2025434628) -->
+<!-- CSIS1664 (2024) -->
+<!-- File name: index.html -->
+
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> EarthWiseSA - Contact Us</title>
+		<link rel = "stylesheet"
+		      href = "styles/earthStyle2.css"
+			  href = "styles/normalize.css">
+			  <style>
+			     textarea {width: 400px;}
+				 input[type="submit"] {color: #32A852;  border-radius: 5px; border-colou: black; padding: 2px;}
+				 input[type="reset"]{ border-radius: 5px;  border-colou: black; padding: 2px;}
+				 
+			  </style>
+    </head>
+    <body>
+        <!-- Page header -->
+       <header>
+
+        <img src="images/logo.jpg" alt="EarthWiseSA Logo">
+
+       </header>
+
+        <!-- Navigation -->
+       <nav>
+        <p>
+            <a href="index.html" >Home</a>
+            <a href="about.html">About</a>
+            <a href="initiatives.html">Initiatives</a>
+            <a href="contact.html" class = "current">Contact us</a>
+   
+        </p>
+       </nav>
+
+        <!-- Page content -->
+		<main>
+          <h1>Contact Us</h1>
+		  <p>if you have any questions, suggestions, or want to get involved, feel free to reach out to us through the form below:</p>
+		  <form method="get" action="thankyou.html">
+            <label for="username" >
+             Fullname:
+             <input type="text" id="fullname" autofocus required>
+            </label>
+			<br>
+			<br>
+			<label for="email" >
+             Email:
+             <input type="text" id="email" autofocus required >
+            </label>
+			 <br>
+			 <br>
+			<label for="crust">
+             Topic of inquiry:
+             <select id="inquiry" >
+              <option value="general">General Inquiry</option>
+              <option value="volunteering">Volunteering Opportunities</option>
+             <option value="partnerships">Partnerships and Collaboration</option>
+			 <option value="other">Other</option>
+            </select>
+            </label>
+			<br>
+			<br>
+			<label for="comments">
+              Message:
+             <textarea id="comments" required>
+			 
+             </textarea>
+           </label>
+		   <br>
+		   <br>
+		   <fieldset>
+		     <legend>Preferred Contact Method:</legend>
+            <input type="radio" name="method" id="email" value="thin" checked>
+            <label for="email">Email</label>
+            <br>
+            <input type="radio" name="method" id="phone" value="deep">
+            <label for="phone">Phone</label>
+            <br>
+            <input type="radio" name="method" id="mail" value="hand">
+            <label for="mail">Mail</label>
+		   </fieldset>
+		   <br>
+		   <p>
+		    <input type="submit" id="submitform" value="Send Messsage"  >
+		    <input type="reset" id="submitform" value="Clear Form" action=reset >
+			</p>								 
+          </form>
+		</main>
+       <footer>
+        <p>
+            Created by:
+            <a href="">DT. Mamiane (2025434628)</a>
+        </p>
+        <p>&copy; 2024 University of the Free State</p>
+		
+       </footer>
+    </body>
+</html>
+
+        

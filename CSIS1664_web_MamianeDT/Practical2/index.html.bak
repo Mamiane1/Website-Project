@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+ <meta charset="utf-8" >
+ <title>Hello World</title> 
+ </head>
+ <body>
+ <img src = "images/LogoCSI.png"
+      width = "600"
+	  height = "182" >
+<h1>My First Web Page</h1>
+
+   <p>Hi there everybody! 
+    My name is Dumisane Mamiane
+    I'm a first year student at the
+    University of the Free State in Bloemfontein, South Africa.</p>  
+	<a href = "/myindex.html>
+	    return to index
+	</a>
+
+    <p>This page was created as part of a CSIS1664 assignment.</p>   
+	
+	
+<p>Please</p> <a> href = "mailto:2025434628@ufs.ac.za">
+ contact me <a/>
+    <p>and tell me what you think of my first web page!</p>
+
+    <p>Created on:</p> <em>24 July 2024</em>
+    
+    <p>2024</p> <a>href = "www.ufs.ac.za">
+	- University of the Free State
+	</a>
+	</body>
